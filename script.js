@@ -19,7 +19,7 @@ function loadEvent() {
     let link = document.getElementById("link1");
     link.addEventListener("click", function() {
         let image = document.querySelectorAll("#img1");
-        console.log(image);
+        link.classList = "selected";
         for (const key in image) {
             image[key].classList = ("selected");
         }
