@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+  
+    background: transparent;
+
+    font-family: inherit;  
+    
+    text-decoration: none;
+}
+
+ol, ul, li {
+    list-style:none;
+    display:block;
+}
+  
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+  
+a img {
+    border: none
+}
+  
+button, a {
+    cursor: pointer;
+    color: inherit
+}
+  
+textarea {
+    resize: none
+}
+  
+button, input, textarea, select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0
+}
+
+.level {
+    padding: 5vh;
+}
+
+.level1 {
+    margin: 5vh auto;
+    width: 90vh;
+    height: 90vh;
+    background-color: #91c4f2;
+    
+}
+.level2 {
+    
+    width: 80vh;
+    height: 80vh;
+    background-color: #8ca0d7;
+    
+}
+.level3 {
+    
+    width: 70vh;
+    height: 70vh;
+    background-color: #9d79bc;
+    
+}
+.level4{
+    
+    width: 60vh;
+    height: 60vh;
+    background-color: #a12da0;
+    
+}
+.level5{
+    
+    width: 50vh;
+    height: 50vh;
+    background-color: #7e1f86;
+    
+}
+.level6{
+    
+    width: 40vh;
+    height: 40vh;
+    background-color: #af4d98;
+    
+}
+.level7{
+    
+    width: 30vh;
+    height: 30vh;
+    background-color: #d66ba0;
+    
+}
+.level8 {
+    
+    width: 20vh;
+    height: 20vh;
+    background-color: #e5a9a9;
+    
+}
+.level8::before {
+    content: "Before";
+
+}
+
+.level8::after {
+    content: "After";
+    -o-animation-delay: unset;
+}
